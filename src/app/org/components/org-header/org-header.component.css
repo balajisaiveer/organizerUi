@@ -1,9 +1,12 @@
-#headerImage{
+/* #headerImage{
     height: 92px;
     max-width: 180px;
 }
+*/
 #org-header{
-    background-color: blue;
     width: 100%;
     height: 92px;
+} 
+#org-header-title{
+    background-color: lightblue;
 }
