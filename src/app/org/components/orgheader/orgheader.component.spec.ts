@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { OrgHeaderComponent } from './org-header.component';
+import { OrgheaderComponent } from './orgheader.component';
 
-describe('OrgHeaderComponent', () => {
-  let component: OrgHeaderComponent;
-  let fixture: ComponentFixture<OrgHeaderComponent>;
+describe('OrgheaderComponent', () => {
+  let component: OrgheaderComponent;
+  let fixture: ComponentFixture<OrgheaderComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ OrgHeaderComponent ]
+      declarations: [ OrgheaderComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(OrgHeaderComponent);
+    fixture = TestBed.createComponent(OrgheaderComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -1,16 +1,20 @@
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { FlexLayoutModule } from '@angular/flex-layout';
-
-import * as fromComponents from './components';
-
+import { NgModule } from "@angular/core";
+import { OrgheaderComponent } from './components/orgheader/orgheader.component';
+import { BrowserModule } from '@angular/platform-browser';
+import {MatToolbarModule} from '@angular/material/toolbar';
+import {MatButtonModule} from '@angular/material/button';
 
 @NgModule({
-  declarations: [...fromComponents.components],
-  imports: [
-    CommonModule,
-    FlexLayoutModule
-  ],
-  exports: [...fromComponents.components]
+    declarations:[
+        OrgheaderComponent
+    ],
+    imports:[
+        BrowserModule,MatToolbarModule,MatButtonModule
+    ],
+    exports:[
+        OrgheaderComponent
+    ],
+    providers:[],
+
 })
-export class OrgModule { }
+export class OrgModule{}

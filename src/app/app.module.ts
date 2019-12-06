@@ -3,8 +3,9 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-
 import { OrgModule } from './org/org.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatToolbarModule} from '@angular/material/toolbar';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { OrgModule } from './org/org.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    OrgModule
+    OrgModule,
+    BrowserAnimationsModule,MatToolbarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
